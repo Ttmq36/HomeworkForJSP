@@ -11,9 +11,9 @@
 	<title>登录</title>
 </head>
 <body>
-	<form action="login.jsp" method="get">
-		<label for="account">账户</label>
-		<input type="text" id="account" name="account" required>
+	<form action="./check.jsp" method="get">
+		<label for="loginname">账户</label>
+		<input type="text" id="loginname" name="loginname" required>
 		<label for="password">密码</label>
 		<input type="text" id="password" name="password" required>
 		<button>提交</button>
